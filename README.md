@@ -4,4 +4,7 @@
   </a>
 </p>
 
-<h1 align="center">Funnel Chart</h1>
+<h1 align="center">
+  Funnel Chart
+</h1>
+<a align="center" href="https://codepen.io/mariuszmalek/pen/YzRxdxX" target="_blank">Demo</a>
