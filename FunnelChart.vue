@@ -117,7 +117,13 @@ export default {
   },
   created() {
     // this.loading = true;
-    this.funnelData = [];
+    this.funnelData = [
+      { "stage": "New", "count": 4, "labels": ["Webiste", "Email", "Browser"], "values": [ 500, 210, 600 ]] },
+      { "stage": "Follow Up", "count": 3, "labels": ["Webiste", "Email", "Browser"], "values": [ 200, 100, 20 ] },
+      { "stage": "Prospect", "count": 1, "labels": ["Webiste", "Email", "Browser"], "values": [ 0, 10, 0 ] },
+      { "stage": "Negotiation", "count": 2, "labels": ["Webiste", "Email", "Browser"], "values": [ 50, 200, 10 ] },
+      { "stage": "won", "count": 2, "labels": ["Webiste", "Email", "Browser"], "values": [ 10, 20, 0 ] }
+    ];
     this.generateFunnelLevels(); // Generate funnel levels based on data
     this.calculateMaxTotalValue(); // Calculate the maximum total value
   },
